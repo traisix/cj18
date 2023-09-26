@@ -1,9 +1,11 @@
 package trabajoenclase;
 
 import java.util.Scanner;
+
 public class trmHoy {
     public static void main(String[]  arg) {
         Scanner scanner = new Scanner(System.in);
+
 
         System.out.println("Digite la cantidad de pesos a convertir a Dolares");
         int Pesos = scanner.nextInt();
