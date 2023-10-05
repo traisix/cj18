@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class promedio_notas {
     public static void main(String[] arg) {
-        double Notas[] = { 0.00, 0.00, 0.00,0.00, 01};
+        double Notas[] = { 0.00, 0.00, 0.00,0.00, 0.00};
 
         for (int i=0; i < 5; i++) {
             System.out.println("Digite la nota del Estudiante" + i);
