@@ -14,27 +14,45 @@ package b4;
 // un seguimiento detallado de su ejecución.
 
 import java.util.Scanner;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 
 public class ciclos {
     public static void main(String[] arg) {
-        int num1, num2;
+        double num1, num2;
+
+
+
+
+
+
+
 
         do {
-            System.out.println("Digite el primer número");
-            Scanner scanner = new Scanner(System.in);
-            num1 = scanner.nextInt();
-            if (num1 == 0) {
-                System.out.println("Numero no deber ser cero");
-            }
-        } while (num1 == 0);
-        do {
-            System.out.println("Digite el segundo número");
-            Scanner scanner = new Scanner(System.in);
-            num2 = scanner.nextInt();
-            if (num2 == 0) {
-                System.out.println("Numero no deber ser cero");
-            }
-        } while (num2 == 0);
-        while ( (num1 * num2))
+            // Limpieza de pantalla
+            // System.out.print("\033[H\033[2J");
+            // System.out.flush();
+            do {
+                System.out.println("Digite el primer número");
+                Scanner scanner = new Scanner(System.in);
+                num1 = scanner.nextDouble();
+                if (num1 == 0) {
+                    System.out.println("Numero no deber ser cero");
+                }
+            } while (num1 == 0);
+
+            do {
+                System.out.println("Digite el segundo número");
+                Scanner scanner = new Scanner(System.in);
+                num2 = scanner.nextInt();
+                //TryCatch();
+                if (num2 == 0) {
+                    System.out.println("Numero no deber ser cero");
+                }
+            } while (num2 == 0);
+
+            System.out.printf("La multiplicacion de %.2f por %2.f es = %.2f", num1,num2,(num1*num2));
+        } while ((num1 * num2)  < 100);
     }
 }

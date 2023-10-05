@@ -1,0 +1,4 @@
+oct 01, 2023 6:17:18 P. M. b4.TryCatch main
+INFORMACIÓN: La multiplicacion de 7 por 9 es igual a 63
+oct 01, 2023 6:17:18 P. M. b4.TryCatch main
+INFORMACIÓN: La multiplicación no supera 100. Ingresa números nuevamente.
